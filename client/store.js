@@ -12,9 +12,7 @@ import posts from './data/posts';
 
 const defaultState = {
   posts,
-  //equals to posts: posts,
-  comments
-  //equals to comments: comments  
+  comments,
 }
 
 const store = createStore(rootReducer, defaultState);
